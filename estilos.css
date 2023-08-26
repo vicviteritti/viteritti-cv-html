@@ -11,11 +11,38 @@ header h2 {
 
 header {
 	width: 560px;
-	height: 100px;
+	height: 700px;
 	background-color: darkolivegreen;
 	border-radius: 10px;
 	padding-left: 40px;
 }
+
+.botonera a {
+	width: 100%;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline
+}
+
+.botonera a:hover {
+	color: darkolivegreen;
+	background-color: white;
+}
+
+.botonera a:active {
+	font-style: italic;
+}
+
+
 
 .caja-uno {
 	width: 560px;
