@@ -36,10 +36,13 @@ nav ul li {
 .botonera a:hover {
 	color: darkolivegreen;
 	background-color: white;
+	font-style: italic;
 }
 
 .botonera a:active {
 	font-style: italic;
+	background-color: #35431D;
+	color: white;
 }
 
 
