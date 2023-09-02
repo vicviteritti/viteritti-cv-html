@@ -68,15 +68,31 @@ nav ul li {
 	color: white;
 }
 
+main {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content:space-around;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: antiquewhite
+}
+
 
 article {
 	background-color: olive
 }
 
 aside {
-	background-color: peru
+	background-color: peru;
+	height: 500px;
+	width: 300px
 }
 
 footer {
-	background-color: palegoldenrod
+	display: flex;
+	flex-direction: row;
+	background-color: palegoldenrod;
+	width: 100%;
 }
