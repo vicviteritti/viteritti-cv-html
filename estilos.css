@@ -84,12 +84,13 @@ main {
 	width: 100%;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #C4C1BC
+	background-color: floralwhite;
+	color: #415224;
 }
 
 
 article {
-	background-color: olive
+	background-color: floralwhite;
 }
 
 article section h4 {
@@ -107,15 +108,42 @@ article section p {
 
 
 aside {
-	background-color: peru;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	background-color: darkolivegreen;
 	height: 500px;
-	width: 300px
+	width: 300px;
+	margin-left: 40px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	color: white
+	
 }
+
+.objetivos {
+	color: darkolivegreen;
+	background-color: floralwhite;
+	border:dashed;
+	border-width: 2px;
+	border-color: olivedrab;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-left: -20px
+}
+
+.aptitudes {
+	list-style: disc;
+}
+
+
 
 footer {
 	display: flex;
 	flex-direction: row;
-	background-color: palegoldenrod;
+	background-color: darkolivegreen;
+	color: white;
 	width: 100%;
 	align-content: center;
 	justify-content: center
