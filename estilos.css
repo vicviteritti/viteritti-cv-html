@@ -43,7 +43,6 @@ header h2 {
 }
 
 
-
 .botonera a {
 	width: 100px;
 	height: 20px;
@@ -125,8 +124,7 @@ article section p {
 
 .proyectos img {
 	box-shadow: 2px 2px 5px darkolivegreen;
-	margin-right: 7px;
-	margin-left: 7px;
+	margin-right: 10px;
 }
 
 .proyectos h5 {
@@ -225,6 +223,12 @@ aside h4 {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
+	padding-right: 35px
+}
+
+.hobbies p {
+	padding-left: 35px;
+	padding-right: 35px
 }
 
 
@@ -242,6 +246,8 @@ footer {
 footer ul {
 	display: flex;
 	list-style: none;
+	align-items: baseline;
+	color: #FFFFFF
 }
 
 footer ul li {
@@ -251,4 +257,5 @@ footer ul li {
 	line-height: 0.5px;
 	text-indent: 5px;
 }
+
 
