@@ -107,6 +107,42 @@ article section p {
 	font-weight: 200;
 }
 
+.programas {
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+	justify-content:flex-start;
+
+}
+
+.programas li {
+	line-height: 0.5px;
+	padding-right: 12px;
+	flex-flow: row wrap
+	}
+
+.circulos {
+	height: 12px;
+	width: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.circulo-si {
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.circulo-no {
+	height: 12px;
+	width: 12px;
+	background-color: #9FBD6A;
+	border: 50px;
+	border-radius: 50%;
+}
 
 aside {
 	display: flex;
@@ -123,6 +159,13 @@ aside {
 	
 }
 
+aside h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	font-variant: small-caps;
+}
+
 .objetivos {
 	color: darkolivegreen;
 	background-color: floralwhite;
@@ -136,6 +179,8 @@ aside {
 
 .aptitudes {
 	list-style: none;
+	display: flex;
+	flex-direction: column;
 }
 
 
