@@ -323,6 +323,117 @@ aside h4 {
 }
 
 
+/* PORTFOLIO */
+.proyectos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: darkolivegreen;
+	background-color: floralwhite;
+	border:dashed;
+	border-width: 2px;
+	border-color: olivedrab;
+	border-radius: 20px;
+	list-style: none;
+}
+
+.proyectos img {
+	box-shadow: 2px 2px 5px darkolivegreen;
+	margin-right: 10px;
+}
+
+.proyectos h5 {
+	font-size: 10px;
+	font-style: italic
+}
+.proyectos p {
+	font-size: 12px
+}
+.proyectos li{
+	line-height: 2px;
+}
+
+
+.article_portfolio {
+	height: 700px;
+	width: 100%;
+	background-color: #0B120A;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulos_portfolio {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-content: space-between;
+	line-height: 34px;
+}
+
+
+
+.boton_ppal {
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	background-color: #0B120A;
+	padding: 2px 5px 5px 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+	
+.boton_ppal:hover {
+	color: darkolivegreen;
+	background-color: white;
+	font-weight: 700;
+}
+
+.boton_ppal:active {
+	font-weight: 700; 
+	background-color: #35431D;
+	color: white;
+}
+
+.slider_pag {
+	align-self:flex-end;
+	position: absolute;
+	height: 12px;
+	width: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+
+.circulo-si {
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.circulo-no {
+	height: 12px;
+	width: 12px;
+	background-color: #9FBD6A;
+	border: 50px;
+	border-radius: 50%;
+}
+
+
+
+
+/* CONTACTO */
 
 /* FOOTER */
 
