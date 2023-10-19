@@ -89,11 +89,14 @@ h2 {
 	font-size: 20px;
 }
 
+h3
+
 h4 {
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	font-variant: small-caps;
 	font-weight: 900;
+	color: white;
 }
 
 p {
@@ -189,20 +192,26 @@ p {
 	align-items: flex-start;
 	justify-content:space-around;
 	width: 100%;
-	background-color: antiquewhite
 }
 
 .section_sobre_mi {
 	height: 700px;
-	width: 100%;
+	width: 80%;
 	background-color: #0B120A;
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	padding-left: 80px;
+}
+
+.info{
+	color:antiquewhite;
+	padding-left: 40px;
 }
 
 .lista{
-	background-color: antiquewhite;
+	padding-top: 30px;
+	color: antiquewhite;
 	width: 60%;
 }
 
@@ -213,18 +222,19 @@ ol{
 .aside_sobre_mi{
 	display: flex;
 	flex-direction: column;
-	margin-top: 40px;
-	background-color: darkolivegreen;
-	height: 600px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	height: 450px;
 	width: 300px;
-	margin-left: 40px;
+	margin-right: 40px;
 	padding-left: 20px;
 	box-sizing: border-box;
 	border-radius: 20px;
-	color: white;
+	color: floralwhite;
 	font-family: 'Lora', serif;
 	font-size: 14px;
-	gap:30px;
+	gap: 30px;
 }
 
 aside h4 {
@@ -235,10 +245,8 @@ aside h4 {
 }
 
 .objetivos {
-	color: darkolivegreen;
-	background-color: floralwhite;
 	border:dashed;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: olivedrab;
 	border-radius: 20px;
 	padding-left: 20px;
@@ -286,13 +294,34 @@ aside h4 {
 	border-radius: 50%;
 }
 
-
-.aptitudes {
-	list-style: none;
-	display: flex;
-	flex-direction: column;
-	padding-right: 35px
+.boton_sobre_mi {
+	margin-top: 30px;
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	background-color: #0B120A;
+	padding: 2px 5px 5px 5px;
+	border: 1px solid white;
+	border-radius: 10px;
 }
+	
+.boton_sobre_mi:hover {
+	color: darkolivegreen;
+	background-color: white;
+	font-weight: 700;
+}
+
+.boton_sobre_mi:active {
+	font-weight: 700; 
+	background-color: #35431D;
+	color: white;
+}
+
 
 
 /* FOOTER */
