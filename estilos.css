@@ -15,6 +15,16 @@ body {
 	background: url("img/Recurso 3.svg");
 	background-color: darkolivegreen;
 	background-repeat: no-repeat;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.section_index{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center
 }
 
 .boton_index {
@@ -31,13 +41,13 @@ body {
 	border-radius: 10px;
 }
 
-.boton_index :hover {
+.boton_index:hover {
 	color: darkolivegreen;
 	background-color: white;
 	font-weight: 700;
 }
 
-.boton_index :active {
+.boton_index:active {
 	font-weight: 700; 
 	background-color: #35431D;
 	color: white;
@@ -200,6 +210,15 @@ main {
 	box-shadow: 2px 2px 5px darkolivegreen;
 	margin-right: 10px;
 }
+
+.proyectos-slider li a img{
+	transition: 0.5s;
+}
+
+.proyectos-slider li a img:hover{
+	box-shadow: 8px 8px 15px darkolivegreen;
+}
+
 
 .proyectos-slider h5 {
 	font-size: 10px;
