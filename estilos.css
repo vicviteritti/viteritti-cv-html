@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
-	margin: 0px;
-	padding:0px;
-}
 
 body {
 	display: flex;
@@ -95,28 +91,32 @@ main {
 }
 
 
-article {
+.proyectos-container {
+	width: 80%;
 	background-color: floralwhite;
 	padding-top: 40px;
+	
 }
 
-article section h4 {
+.proyectos-container h4 {
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	font-variant: small-caps;
 	font-weight: 900;
 }
 
-article section p {
+.proyectos-container p {
 	font-family: 'Lora', serif;
 	font-size: 14px;
 	font-weight: 200;
 }
 
-.proyectos {
+.proyectos-slider {
+	width:100%;
+	max-width: 1000px;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	padding-top: 30px;
 	padding-bottom: 10px;
 	color: darkolivegreen;
@@ -126,19 +126,51 @@ article section p {
 	border-color: olivedrab;
 	border-radius: 20px;
 	list-style: none;
+	overflow:auto;
+	scroll-behavior:smooth;
+	box-sizing: border-box;
 }
 
-.proyectos img {
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: darkolivegreen;
+	width: 200px;
+	border-radius: 10px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #35431D
+}
+
+
+
+.imagenes{
+	display: inline
+}
+.proyectos-slider img {
 	box-shadow: 2px 2px 5px darkolivegreen;
 	margin-right: 10px;
 }
 
-.proyectos h5 {
+.proyectos-slider h5 {
 	font-size: 10px;
 	font-style: italic
 }
 
-.proyectos p {
+.proyectos-slider p {
 	font-size: 12px
 }
 .infografia {
