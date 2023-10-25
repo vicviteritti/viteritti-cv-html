@@ -326,11 +326,16 @@ aside h4 {
 }
 
 
+/*FORMULARIO*/
+form {
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
 
 
 
-
-
+/*FOOTER*/
 footer {
 	display: flex;
 	flex-direction: row;
