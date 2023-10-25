@@ -358,6 +358,11 @@ input[type=radio], input[type=checkbox]{
 	height: auto;
 }
 
+
+
+
+/*FORM CONFIRMAR*/
+
 .form-confirmar{
 	display: flex;
 	flex-direction: column;
@@ -379,46 +384,34 @@ input[type=reset], input[type=submit]{
 	width: 20%;
 	border-color: white;
 	border-radius: 20px;
-	color: white;
 }
 
 input[type=submit]{
 	background-color: darkolivegreen;
-}
-
-input[type=submit]:hover {
-	color: darkolivegreen;
-	background-color: white;
-	font-weight: 700;
-	border: 1px solid darkolivegreen;
-}
-
-input[type=submit]:active {
-	font-weight: 700; 
-	background-color: #35431D;
 	color: white;
 }
-
 
 input[type=reset]{
 	color: darkolivegreen;
-	background-color: white;
+	background-color: floralwhite;
 	font-weight: 700;
 	border: 1px solid darkolivegreen;
 }
 
-input[type=reset]:hover {
-	color: darkolivegreen;
-	background-color: white;
-	font-weight: 700;
-	border: 1px solid darkolivegreen;
-}
-
-input[type=reset]:active {
+input[type=reset]:hover, input[type=submit]:hover {
 	font-weight: 700; 
 	background-color: #35431D;
 	color: white;
 }
+
+input[type=reset]:active, input[type=submit]:active {
+	font-weight: 700; 
+	background-color: #0B0E06;
+	color: white;
+}
+
+
+
 
 
 
