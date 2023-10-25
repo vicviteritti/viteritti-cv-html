@@ -331,7 +331,95 @@ form {
 	width: 100%;
 	height: auto;
 	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
 }
+
+form div{
+	display: flex;
+	flex-direction: column;
+}
+
+label{
+	display: block;
+}
+
+.form-checkbox {
+
+}
+
+input{
+	width: 75%;
+	height: 25px;
+}
+
+input[type=radio], input[type=checkbox]{
+	width: auto;
+	height: auto;
+}
+
+.form-confirmar{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-confirmar p{
+	color: #ACACAC;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.form-enviar-borrar{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+input[type=reset], input[type=submit]{
+	width: 20%;
+	border-color: white;
+	border-radius: 20px;
+	color: white;
+}
+
+input[type=submit]{
+	background-color: darkolivegreen;
+}
+
+input[type=submit]:hover {
+	color: darkolivegreen;
+	background-color: white;
+	font-weight: 700;
+	border: 1px solid darkolivegreen;
+}
+
+input[type=submit]:active {
+	font-weight: 700; 
+	background-color: #35431D;
+	color: white;
+}
+
+
+input[type=reset]{
+	color: darkolivegreen;
+	background-color: white;
+	font-weight: 700;
+	border: 1px solid darkolivegreen;
+}
+
+input[type=reset]:hover {
+	color: darkolivegreen;
+	background-color: white;
+	font-weight: 700;
+	border: 1px solid darkolivegreen;
+}
+
+input[type=reset]:active {
+	font-weight: 700; 
+	background-color: #35431D;
+	color: white;
+}
+
 
 
 
