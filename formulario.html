@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formulario</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header id="cabecera">
+		<img src="img/foto_cv_compu3.png" width="280" height="274" alt="foto de victoria viteritti"/> 
+		<div class="titulos"> 
+			<h1> Victoria Viteritti</h1>
+			<h2> Diseño y Comunicaci&oacute;n Visual</h2>
+			<nav class="botonera">
+				<ul>
+					<li><a href="#"> educaci&oacute;n</a></li>
+					<li><a href="#"> experiencia laboral</a></li>
+					<li><a href="#"> idioma</a></li>
+					<li><a href="#"> programas</a></li>
+					<li><a href="#"> contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+		<section class="section-formulario">
+			<div class="formulario-info">
+				<h2>Est&aacute;s a un s&oacute;lo paso</h2>
+				<p>Complet&aacute; con tus datos para que lleve tu diseño a otro nivel</p>
+			</div>
+			<article class="formulario">
+				<form method="post" action="mailto:victoriaviteritti@gmail.com" subject="'Email enviado desde el formulario'" target="_blank" enctype="text/plain">
+					<div>
+						<div class="form-nombre-apellido">
+							<div class="nombre">
+								<label for="nombre">* nombre:</label>
+								<input type="text" name="nombre" id="nombre" maxlength="25" placeholder="nombre" required>
+							</div>
+							<div class="apellido">
+								<label for="apellido">* apellido:</label>
+								<input type="text" name="apellido" id="apellido" maxlength="25" placeholder="apellido" required>
+							</div>
+						</div>
+						
+						<div class="form-email-cel">
+							<div class="email">
+								<label for="email">* email:</label>
+								<input type="email" name="email" id="email" required>
+							</div>
+							<div class="cel">
+								<label for="celular">celular:</label>
+								<input type="celular" name="celular" id="celular" placeholder="(000) 0000000">
+							</div>
+						</div>
+						
+						<div class="form-consulta">
+							<div class="consulta-asunto">
+								<label for="asunto">asunto</label>
+								<textarea name="asunto" id="asunto"></textarea>
+							</div>
+							<div class="consulta">
+								<label for="consulta">consulta</label>
+								<textarea name="consulta" id="consulta"></textarea>
+							</div>
+						</div>
+						
+						<div class="form-enviar">
+							<input type="submit" value="enviar" class="enviar">
+							<p>*respetamos las políticas de privacidad, no compartiremos tus datos personales con terceros.</p>
+						</div>
+					</div>
+				</form>
+			</article>
+		</section>
+	</main>
+	
+	<footer>
+		<ul>
+			<li>
+				<h4> contacto </h4>
+				<p> victoriaviteritti@gmail.com </p>
+			</li>
+			<li>
+				<h4> datos </h4>
+				<p> 21/11/2001 </p>
+				<p> Argentina.</p>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
