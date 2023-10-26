@@ -21,17 +21,35 @@ body {
 	}
 }
 
+.lateral-a li{
+	height: 30px;
+	width: 30px;
+}
+
 .lateral-a{
 	position: absolute;
 	display: flex;
 	flex-direction: column;
 	top:160px;
 	left:100px;
+	list-style: none;
+	gap:10px;
 }
 
 .lateral-a a{
 	background-color: floralwhite;
+	border: 50px;
+	border-radius: 50%;
+	padding: 5px;
+	color: darkolivegreen
 }
+
+.lateral-a a img{
+	justify-content: center;
+	align-content: center
+}
+
+
 
 
 .main-index{
