@@ -32,7 +32,9 @@ body {
 	left:100px;
 	list-style: none;
 	gap:10px;
-	align-items: flex-start
+	align-items: flex-start;
+	margin:0px;
+	margin-top:27px;
 }
 
 .lateral-a a{
