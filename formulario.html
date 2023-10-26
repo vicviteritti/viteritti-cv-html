@@ -32,81 +32,80 @@
 	
 	<main>
 <!--me falta form en css, estoy en eso-->
-		<section class="section-formulario">
+		<article class="article-formulario">
 			<div class="formulario-info">
 				<h2>Est&aacute;s a un s&oacute;lo paso</h2>
 				<p>Complet&aacute; con tus datos para que lleve tu diseño a otro nivel</p>
 			</div>
-			<article class="formulario">
-				<form method="post" action="mailto:victoriaviteritti@gmail.com" subject="Email enviado desde el formulario" target="_blank" enctype="text/plain">
-					<div>
-						
-						<div class="form-nombre-apellido">
-							<div class="nombre">
-								<label for="nombre">* nombre:</label>
-								<input type="text" name="nombre" id="nombre" maxlength="25" placeholder="nombre" required>
-							</div>
-							<div class="apellido">
-								<label for="apellido">* apellido:</label>
-								<input type="text" name="apellido" id="apellido" maxlength="25" placeholder="apellido" required>
-							</div>
+			
+			<form method="post" action="mailto:victoriaviteritti@gmail.com" subject="Email enviado desde el formulario" target="_blank" enctype="text/plain">
+				<section class="section-form-datos">
+					<div class="form-nombre-apellido">
+						<div class="nombre">
+							<label for="nombre">* nombre:</label>
+							<input type="text" name="nombre" id="nombre" maxlength="25" placeholder="nombre" required>
 						</div>
-						
-						<div class="form-radio">
-							<p>tipo de cliente:</p>
-							<label for="tipo-cliente">pyme<input type="radio" name="tipo-cliente" value="pyme" id="pyme"></label>
-							<label for="tipo-cliente">ong<input type="radio" name="tipo-cliente" value="ong" id="ong"></label>
-							<label for="tipo-cliente">emprendimiento<input type="radio" name="tipo-cliente" value="emprendimiento" id="emprendimiento"></label>
-						</div>
-						
-						<div class="form-email-cel">
-							<div class="email">
-								<label for="email">* email:</label>
-								<input type="email" name="email" id="email" maxlength="70" placeholder="email" required>
-							</div>
-							<div class="cel">
-								<label for="celular">celular:</label>
-								<input type="celular" name="celular" id="celular" placeholder="(000) 0000000">
-							</div>
-						</div>
-						
-						<div class="form-checkbox">
-							<p>tipo de servicio</p>
-							<div class="checkbox">
-								<label for="tipo-de-servicio">diseño editorial<input type="checkbox" name="tipo-de-servicio" value="diseño editorial" id="diseño-editorial"></label>
-								<label for="tipo-de-servicio">diseño web<input type="checkbox" name="tipo-de-servicio" value="diseño web" id="diseño-web"></label>
-								<label for="tipo-de-servicio">infograf&iacute;as<input type="checkbox" name="tipo-de-servicio" value="infografias" id="infografias"></label>
-								<label for="tipo-de-servicio">branding<input type="checkbox" name="tipo-de-servicio" value="branding" id="branding"></label>
-								<label for="tipo-de-servicio">rediseño de logo<input type="checkbox" name="tipo-de-servicio" value="rediseño de logo" id="rediseño-de-logo"></label>
-								<label for="tipo-de-servicio">tarjetas<input type="checkbox" name="tipo-de-servicio" value="tarjetas" id="tarjetas"></label>
-								<label for="tipo-de-servicio">flyers<input type="checkbox" name="tipo-de-servicio" value="flyers" id="flyers"></label>
-								<label for="tipo-de-servicio">gift cards<input type="checkbox" name="tipo-de-servicio" value="gift cards" id="gift-cars"></label>
-								<label for="tipo-de-servicio">redes sociales<input type="checkbox" name="tipo-de-servicio" value="redes sociales" id="redes-sociales"></label>
-							</div>
-						</div>
-						
-						<div class="form-consulta">
-							<div class="consulta-asunto">
-								<label for="asunto">asunto:</label>
-								<textarea name="asunto" id="asunto" maxlength="70" placeholder="asunto" required></textarea>
-							</div>
-							<div class="consulta">
-								<label for="consulta">consulta:</label>
-								<textarea name="consulta" id="consulta" maxlength="600" placeholder="consulta" required></textarea>
-							</div>
-						</div>
-						
-						<div class="form-confirmar">
-							<div class="form-enviar-borrar">
-								<input type="submit" value="enviar" class="enviar" formenctype="text/plain">
-								<input type="reset" value="eliminar">
-							</div>
-							<p>*respetamos las políticas de privacidad, no compartiremos tus datos personales con terceros.</p>
+						<div class="apellido">
+							<label for="apellido">* apellido:</label>
+							<input type="text" name="apellido" id="apellido" maxlength="25" placeholder="apellido" required>
 						</div>
 					</div>
-				</form>
-			</article>
-		</section>
+					
+					<div class="form-radio">
+						<p>tipo de cliente:</p>
+						<label for="tipo-cliente">pyme<input type="radio" name="tipo-cliente" value="pyme" id="pyme"></label>
+						<label for="tipo-cliente">ong<input type="radio" name="tipo-cliente" value="ong" id="ong"></label>
+						<label for="tipo-cliente">emprendimiento<input type="radio" name="tipo-cliente" value="emprendimiento" id="emprendimiento"></label>
+					</div>
+					
+					<div class="form-email-cel">
+						<div class="email">
+							<label for="email">* email:</label>
+							<input type="email" name="email" id="email" maxlength="70" placeholder="email" required>
+						</div>
+						<div class="cel">
+							<label for="celular">celular:</label>
+							<input type="celular" name="celular" id="celular" placeholder="(000) 0000000">
+						</div>
+					</div>
+				</section>
+				
+				<section class="section-form-solicitud">
+					<div class="form-consulta">
+						<div class="consulta-asunto">
+							<label for="asunto">asunto:</label>
+							<textarea name="asunto" id="asunto" maxlength="70" placeholder="asunto" required></textarea>
+						</div>
+						<div class="consulta">
+							<label for="consulta">consulta:</label>
+							<textarea name="consulta" id="consulta" maxlength="600" placeholder="consulta" required></textarea>
+						</div>
+					</div>
+					
+					<div class="form-checkbox">
+						<p>tipo de servicio</p>
+						<div class="checkbox">
+							<label for="tipo-de-servicio">diseño editorial<input type="checkbox" name="tipo-de-servicio" value="diseño editorial" id="diseño-editorial"></label>
+							<label for="tipo-de-servicio">diseño web<input type="checkbox" name="tipo-de-servicio" value="diseño web" id="diseño-web"></label>
+							<label for="tipo-de-servicio">infograf&iacute;as<input type="checkbox" name="tipo-de-servicio" value="infografias" id="infografias"></label>
+							<label for="tipo-de-servicio">branding<input type="checkbox" name="tipo-de-servicio" value="branding" id="branding"></label>
+							<label for="tipo-de-servicio">rediseño de logo<input type="checkbox" name="tipo-de-servicio" value="rediseño de logo" id="rediseño-de-logo"></label>
+							<label for="tipo-de-servicio">tarjetas<input type="checkbox" name="tipo-de-servicio" value="tarjetas" id="tarjetas"></label>
+							<label for="tipo-de-servicio">flyers<input type="checkbox" name="tipo-de-servicio" value="flyers" id="flyers"></label>
+							<label for="tipo-de-servicio">gift cards<input type="checkbox" name="tipo-de-servicio" value="gift cards" id="gift-cars"></label>
+							<label for="tipo-de-servicio">redes sociales<input type="checkbox" name="tipo-de-servicio" value="redes sociales" id="redes-sociales"></label>
+						</div>
+					</div>
+				</section>
+				<section class="section-form-confirmar">
+					<div class="form-enviar-borrar">
+						<input type="submit" value="enviar" class="enviar" formenctype="text/plain">
+						<input type="reset" value="eliminar">
+					</div>
+					<p>*respetamos las políticas de privacidad, no compartiremos tus datos personales con terceros.</p>
+				</section>
+			</form>
+		</article>
 	</main>
 	
 	<footer>

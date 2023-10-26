@@ -13,7 +13,6 @@ body {
 	width: 100%;
 	height: 700px;
 	background: url("img/Recurso 3.svg");
-	background-color: darkolivegreen;
 	background-repeat: no-repeat;
 	display: flex;
 	align-content: center;
@@ -330,7 +329,6 @@ aside h4 {
 form {
 	width: 100%;
 	height: auto;
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 }
@@ -342,13 +340,50 @@ form div{
 
 label{
 	display: block;
+
+}
+
+input{
+	width: 75%;
+	height: 15px;
+	padding: 10px;
+	border: 1px solid darkolivegreen;
+	border-radius: 20px;
+}
+
+input:hover{
+	cursor:pointer;
+}
+
+input[type=radio], input[type=checkbox]{
+	width: auto;
+	height: auto;
 }
 
 
+.section-form-datos{
+	display: flex;
+	flex-direction: column
+}
+
+.form-nombre-apellido{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+.form-radio{
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*FORM RADIO*/
 .form-radio label{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 input[type="radio"] {
@@ -356,8 +391,9 @@ input[type="radio"] {
 	background-color: floralwhite;
 	border: 1px solid darkolivegreen;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
+	align-items: center
 }
 
 input[type="radio"]:hover {
@@ -365,23 +401,44 @@ input[type="radio"]:hover {
 	background-color: darkolivegreen;
 	color: floralwhite;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 }
 
 input[type="radio"]:checked {
 	appearance: none;
 	background-color: darkolivegreen;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 }
 
 
 
 
 
+/*FORM SECTION SOLICITUD*/
+.section-form-solicitud{
+	display:flex;
+	flex-direction: row;
+	background-color: olivedrab;
+}
 
+
+.form-consulta{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.form-checkbox{
+
+}
+
+
+
+
+/*FORM CHECKBOX*/
 .checkbox {
 	border: 1px dashed darkolivegreen;
 }
@@ -398,8 +455,8 @@ input[type="checkbox"] {
 	background-color: floralwhite;
 	border: 1px solid darkolivegreen;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 }
 
 input[type="checkbox"]:hover {
@@ -407,34 +464,21 @@ input[type="checkbox"]:hover {
 	background-color: darkolivegreen;
 	color: floralwhite;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 }
 
 input[type="checkbox"]:checked {
 	appearance: none;
 	background-color: darkolivegreen;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 }
 
 
 
-input{
-	width: 75%;
-	height: 25px;
-	padding: 5px;
-}
 
-input:hover{
-	cursor:pointer;
-}
-
-input[type=radio], input[type=checkbox]{
-	width: auto;
-	height: auto;
-}
 
 
 
@@ -461,6 +505,8 @@ input[type=radio], input[type=checkbox]{
 input[type=reset], input[type=submit]{
 	width: 20%;
 	border-radius: 20px;
+	padding: 5px;
+	height: 25px
 }
 
 input[type=submit]{
@@ -490,6 +536,13 @@ input[type=reset]:active, input[type=submit]:active {
 
 
 
+
+
+/*FORM CONSULTA*/
+
+textarea{
+	padding:5px;
+}
 
 
 
