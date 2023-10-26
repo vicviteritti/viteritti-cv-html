@@ -21,31 +21,6 @@ body {
 	}
 }
 
-.lateral-a li{
-	align-content: center
-}
-
-.lateral-a{
-	position: absolute;
-	display: flex;
-	flex-direction: row;
-	left:100px;
-	list-style: none;
-	gap:10px;
-	align-items: flex-start;
-	margin:0px;
-	margin-top:27px;
-}
-
-.lateral-a a{
-	align-self: baseline;
-}
-
-.lateral-a a img{
-	color:floralwhite;
-}
-
-
 
 
 .main-index{
@@ -769,3 +744,29 @@ footer ul li {
 	line-height: 0.5px;
 	text-indent: 5px;
 }
+
+
+.lateral-a li{
+	align-content: center
+}
+
+.lateral-a{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	left:120px;
+	list-style: none;
+	gap:10px;
+	align-items: flex-start;
+	margin:0px;
+	margin-top:27px;
+}
+
+.lateral-a a{
+	align-self: baseline;
+}
+
+.lateral-a a img{
+	color:floralwhite;
+}
+
