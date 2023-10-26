@@ -344,9 +344,48 @@ label{
 	display: block;
 }
 
+
+.form-radio label{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+input[type="radio"] {
+	appearance: none;
+	background-color: floralwhite;
+	border: 1px solid darkolivegreen;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+}
+
+input[type="radio"]:hover {
+	appearance: none;
+	background-color: darkolivegreen;
+	color: floralwhite;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+}
+
+input[type="radio"]:checked {
+	appearance: none;
+	background-color: darkolivegreen;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+}
+
+
+
+
+
+
 .checkbox {
 	border: 1px dashed darkolivegreen;
 }
+
 
 .checkbox label{
 	display: flex;
@@ -359,20 +398,28 @@ input[type="checkbox"] {
 	background-color: floralwhite;
 	border: 1px solid darkolivegreen;
 	border-radius: 50%;
-	height: 12px;
-	width: 12px;
-	position:relative;
+	height: 10px;
+	width: 10px;
+}
+
+input[type="checkbox"]:hover {
+	appearance: none;
+	background-color: darkolivegreen;
+	color: floralwhite;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
 }
 
 input[type="checkbox"]:checked {
 	appearance: none;
 	background-color: darkolivegreen;
-	color: floralwhite;
 	border-radius: 50%;
-	height: 12px;
-	width: 12px;
-	position:relative;
+	height: 10px;
+	width: 10px;
 }
+
+
 
 input{
 	width: 75%;
