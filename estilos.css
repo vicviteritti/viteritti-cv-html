@@ -198,28 +198,25 @@ article h4{
 	box-sizing: border-box;
 }
 
-/* width */
+
 ::-webkit-scrollbar {
 	width: 15px;
 	height: 15px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+	background: #f1f1f1;
 	border-radius: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: darkolivegreen;
+	background-color: darkolivegreen;
 	width: 200px;
 	border-radius: 10px
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #35431D
+	background: #35431D
 }
 
 
@@ -345,6 +342,76 @@ aside h4 {
 	padding-left: 35px;
 	padding-right: 35px
 }
+
+
+
+/*GALERIA*/
+.body-galeria{
+	background-color:floralwhite;
+}
+.header-galeria{
+	width: 100%;
+	height: 30%;
+	margin: 25px;
+	background-color: floralwhite;
+}
+
+.header-galeria a{
+	margin-left: 25px;
+}
+
+.galeria{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 45px;
+}
+
+.section-galeria{
+	display: flex;
+	flex-direction: column;
+}
+
+.section_galeria div{
+	display: flex;
+	flex-direction: column;
+}
+
+.section_galeria img{
+	box-shadow: 2px 2px 5px darkolivegreen;
+	margin-bottom: 10px
+}
+
+.section_galeria div h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-variant: normal;
+	font-weight: 900;
+	color: #3A5126;
+	margin: 0px;
+}
+
+.section_galeria div h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-variant: small-caps;
+	font-weight: 900;
+	color: #3A5126;
+	margin: 0px;
+}
+
+.section_galeria div p{
+	font-family: 'Lora', serif;
+	font-weight: 900;
+	font-size: 14px;
+	color: #3A5126;
+	margin: 0px;
+}
+
+
+
+
+
 
 
 /*FORMULARIO*/
