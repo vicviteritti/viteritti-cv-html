@@ -361,6 +361,9 @@ input[type=radio], input[type=checkbox]{
 }
 
 
+
+
+/*SECTION FORM DATOS*/
 .section-form-datos{
 	display: flex;
 	flex-direction: column
@@ -377,8 +380,6 @@ input[type=radio], input[type=checkbox]{
 	flex-direction: row;
 }
 
-
-/*FORM RADIO*/
 .form-radio label{
 	display: flex;
 	flex-direction: row-reverse;
@@ -414,6 +415,10 @@ input[type="radio"]:checked {
 }
 
 
+.form-email-cel{
+	display: flex;
+	flex-direction: row
+}
 
 
 
@@ -422,17 +427,38 @@ input[type="radio"]:checked {
 	display:flex;
 	flex-direction: row;
 	background-color: olivedrab;
+	justify-content: space-between;
+	gap: 10px
 }
-
 
 .form-consulta{
 	display: flex;
 	flex-direction: column;
-
+	width: 55%;
+	align-content: space-around;
 }
 
 .form-checkbox{
+	justify-content: flex-start;
+}
 
+
+/*FORM CONSULTA*/
+
+textarea{
+	padding:10px;
+	border: 1px solid darkolivegreen;
+	border-radius: 20px;
+}
+
+.consulta-asunto textarea{
+	width: 100%;
+	height: 17px;
+}
+
+.consulta-mensaje textarea{
+	width: 100%;
+	height: 285px;
 }
 
 
@@ -441,13 +467,15 @@ input[type="radio"]:checked {
 /*FORM CHECKBOX*/
 .checkbox {
 	border: 1px dashed darkolivegreen;
+	border-radius: 20px;
+	padding: 10px 10px 5px 5px
 }
-
 
 .checkbox label{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
+	align-items: center
 }
 
 input[type="checkbox"] {
@@ -538,11 +566,7 @@ input[type=reset]:active, input[type=submit]:active {
 
 
 
-/*FORM CONSULTA*/
 
-textarea{
-	padding:5px;
-}
 
 
 
