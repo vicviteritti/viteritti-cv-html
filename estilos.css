@@ -803,8 +803,12 @@ input[type=reset]:active, input[type=submit]:active {
 }
 
 
-
-
+.dibujo-cora{
+	position: absolute;
+	scale: 0.3;
+	top: 5px;
+	right: 650px
+}
 
 
 
