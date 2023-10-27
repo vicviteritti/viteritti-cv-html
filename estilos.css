@@ -49,7 +49,7 @@ audio::-webkit-media-controls-time-remaining-display{
 .main-index{
 	width: 100%;
 	height: 700px;
-	background: url("img/Recurso 3.svg");
+	background: url("img/background-index.svg");
 	background-repeat: no-repeat;
 	display: flex;
 	align-items: center;
