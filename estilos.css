@@ -146,8 +146,6 @@ body {
 		flex-wrap: wrap;
 		padding-top: 40px;
 		padding-bottom: 40px;
-		background-color: floralwhite;
-		color: #415224;
 	}
 	
 	.info-personal{
@@ -158,20 +156,15 @@ body {
 	}
 	
 	aside {
-		display: flex;
-		flex-direction: column;
-		margin-top: 40px;
-		background-color: darkolivegreen;
 		height: 630px;
-		width: 300px;
-		margin-left: 40px;
-		padding-left: 20px;
-		box-sizing: border-box;
-		border-radius: 20px;
-		color: white;
-		font-family: 'Lora', serif;
-		font-size: 14px
+		width: 75%;
 	}
+	
+	.proyectos-container {
+		width: 100%;
+	}
+	
+	
 }
 
 
@@ -826,14 +819,16 @@ footer {
 	color: white;
 	width: 100%;
 	align-content: center;
-	justify-content: center
+	justify-content: space-between;
 }
 
 footer ul {
 	display: flex;
 	list-style: none;
 	align-items: baseline;
-	color: #FFFFFF
+	color: #FFFFFF;
+	margin-right: 45px;
+	box-sizing: border-box;
 }
 
 footer ul li {
@@ -850,7 +845,6 @@ footer ul li {
 }
 
 .lateral-a{
-	position: absolute;
 	display: flex;
 	flex-direction: row;
 	left:120px;
