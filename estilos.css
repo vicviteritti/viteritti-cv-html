@@ -137,41 +137,8 @@ body {
 		padding: 1px 15px 2px 15px;
 		text-align: center;
 	}
-/*FOOTER*/
-	footer {
-		width: 100%;
-		
-	}
-	
-	.lateral-a li{
-		align-content: center
-	}
-	
-	.lateral-a{
-		position: absolute;
-		display: flex;
-		flex-direction: row;
-		left:50px;
-		list-style: none;
-		gap:10px;
-		align-items: flex-start;
-		margin:0px;
-		margin-top:0px;
-	}
-
-	.lateral-a a{
-		align-self: baseline;
-	}
-
-	.lateral-a a img{
-		color:floralwhite;
-	}
-	
-	
-	
-	
-	
 }
+
 
 
 /*SOBRE-MI*/
