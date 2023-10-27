@@ -21,6 +21,29 @@ body {
 	}
 }
 
+.audio{
+	position:absolute;
+	scale: 0.8;
+	top:710px;
+	right:30px;
+}
+
+audio{
+	border: 1px solid floralwhite;
+	border-radius: 30px;
+}
+
+audio::-webkit-media-controls-panel{
+	background-color: #3A5126;
+}
+
+audio::-webkit-media-controls-current-time-display{
+    color: floralwhite;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: floralwhite;
+}
+
 
 /*INDEX*/
 .main-index{
@@ -809,8 +832,6 @@ input[type=reset]:active, input[type=submit]:active {
 	top: 5px;
 	right: 650px
 }
-
-
 
 
 
