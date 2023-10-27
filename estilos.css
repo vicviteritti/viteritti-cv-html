@@ -137,6 +137,41 @@ body {
 		padding: 1px 15px 2px 15px;
 		text-align: center;
 	}
+	
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content:flex-end;
+		flex-wrap: wrap;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: floralwhite;
+		color: #415224;
+	}
+	
+	.info-personal{
+		width: 100%;
+		padding-left: 80px;
+		padding-right: 80px;
+		box-sizing: border-box;
+	}
+	
+	aside {
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+		background-color: darkolivegreen;
+		height: 630px;
+		width: 300px;
+		margin-left: 40px;
+		padding-left: 20px;
+		box-sizing: border-box;
+		border-radius: 20px;
+		color: white;
+		font-family: 'Lora', serif;
+		font-size: 14px
+	}
 }
 
 
@@ -224,12 +259,20 @@ main {
 	color: #415224;
 }
 
-article h4{
+.info-personal h4{
 	font-family: 'Lora', serif;
 	font-weight: 900;
 	font-size: 14px;
 	color: #3A5126;
 }
+
+.info-personal p{
+	font-family: 'Lora', serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #3A5126;
+}
+
 
 .proyectos-container {
 	width: 80%;
