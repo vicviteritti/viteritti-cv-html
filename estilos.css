@@ -84,6 +84,68 @@ body {
 
 
 
+/*MOBILE*/
+@media (max-width:600px){
+	#cabecera {
+		width: 100%;
+		height: 150px;
+		background-color: #3A5126;	
+		display: flex;
+		align-content: space-between;
+		justify-content: flex-start
+	}
+	
+	#cabecera img{
+		width: 20%;
+		height: 30%;
+		align-self: flex-start;
+		padding-top: 20px;
+	}
+	
+	.titulos {
+		align-self: flex-start;
+		margin: 0px;
+		height: 0px;
+		text-align: start;
+		top:0px;
+	}
+
+	.titulos h1 {
+		font-size: 28px;
+		padding-left: 35px;
+	}
+	
+	.titulos h2 {
+		font-size: 10px;
+	}
+	
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		position: absolute;
+		left:40px;
+		top:200px
+	}
+	
+	.botonera a {
+		width: 100px;
+		height: 20px;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+		color: white;
+		padding: 1px 15px 2px 15px;
+		border: 1px solid white;
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	
+	
+	
+}
 
 
 /*SOBRE-MI*/
@@ -135,14 +197,6 @@ body {
 	border: 1px solid white;
 	border-radius: 20px;
 	text-align: center;
-}
-
-
-@media (max-width:600px){
-	
-	
-	
-	
 }
 
 
