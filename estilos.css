@@ -698,7 +698,6 @@ aside h4 {
 
 
 
-
 .titulos {
 	display: flex;
 	flex-direction: column;
@@ -739,12 +738,12 @@ aside h4 {
 	margin-left: 35px;
 	padding-left: 35px;
 	padding-top: 35px;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	background-color: floralwhite;
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	border-radius: 20px;
 	border:1px solid rgba(255, 255, 255, 0.18);
-	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section-formulario h1{
@@ -764,11 +763,11 @@ aside h4 {
 }
 
 form label, form p{
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
 	font-variant: small-caps;
 	font-weight: 900;
-	color: #3A5126;
+	color: #EF878B;
 	margin-bottom: 3px;
 }
 
@@ -776,7 +775,7 @@ form label, form p{
 	font-family: 'Lora', serif;
 	font-weight: 900;
 	font-size: 14px;
-	color: #3A5126;
+	color: #021f23;
 	margin: 0px;
 }
 
@@ -784,7 +783,7 @@ h3 {
 	font-family: 'Lora', serif;
 	font-style: 900;
 	font-size: 35px;
-	color: darkolivegreen;
+	color: #EA5A5F;
 	margin: 0px;
 }
 
@@ -809,8 +808,11 @@ input{
 	width: 75%;
 	height: 15px;
 	padding: 10px;
-	border: 1px solid darkolivegreen;
+
+	background: floralwhite;
 	border-radius: 20px;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 input:hover{
@@ -854,17 +856,21 @@ input[type=radio], input[type=checkbox]{
 input[type="radio"] {
 	appearance: none;
 	background-color: floralwhite;
-	border: 1px solid darkolivegreen;
 	border-radius: 50%;
 	height: 5px;
 	width: 5px;
-	align-items: center
+	align-items: center;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+	
 }
 
 input[type="radio"]:hover {
 	appearance: none;
-	background-color: darkolivegreen;
-	color: floralwhite;
+	background-color: #EA5A5F;
+	border-radius: 20px;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	height: 5px;
 	width: 5px;
@@ -872,7 +878,7 @@ input[type="radio"]:hover {
 
 input[type="radio"]:checked {
 	appearance: none;
-	background-color: darkolivegreen;
+	background-color: #EA5A5F;
 	border-radius: 50%;
 	height: 5px;
 	width: 5px;
@@ -911,18 +917,20 @@ input[type="radio"]:checked {
 
 textarea{
 	padding:10px;
-	border: 1px solid darkolivegreen;
+	background-color: floralwhite;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
 	margin-bottom: 10px
 }
 
 .consulta-asunto textarea{
-	width: 100%;
-	height: 17px;
+	width: 85%;
+	height: 16px;
 }
 
 .consulta-mensaje textarea{
-	width: 100%;
+	width: 85%;
 	height: 250px;
 }
 
@@ -930,6 +938,17 @@ textarea{
 
 
 /*FORM CHECKBOX*/
+
+
+.objetivos p{
+	font-weight: 600;
+	color: #EF878B;
+}
+
+.objetivos h3{
+	color: #EF878B;
+}
+
 .checkbox {
 	padding: 10px 10px 5px 5px;
 	margin-bottom: 10px
@@ -946,11 +965,12 @@ textarea{
 input[type="checkbox"] {
 	appearance: none;
 	background-color: floralwhite;
-	border: 1px solid #EA5A5F;
+	border:1px solid rgba(242 171 152);
 	border-radius: 50%;
 	height: 5px;
 	width: 5px;
 }
+
 
 input[type="checkbox"]:hover {
 	appearance: none;
@@ -1004,26 +1024,28 @@ input[type=reset], input[type=submit]{
 }
 
 input[type=submit]{
-	background-color: darkolivegreen;
-	border: 1px solid darkolivegreen;
-	color: white;
+	color: floralwhite;
+	background-color: #EA5A5F;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 input[type=reset]{
-	color: darkolivegreen;
+	color: rgba(242 171 152);
 	background-color: floralwhite;
-	border: 1px solid darkolivegreen;
+	border:1px solid rgba(242 171 152);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 input[type=reset]:hover, input[type=submit]:hover {
 	font-weight: 700; 
-	background-color: #35431D;
+	background-color: #021f23;
 	color: white;
 }
 
 input[type=reset]:active, input[type=submit]:active {
 	font-weight: 700; 
-	background-color: #0B0E06;
+	background-color: #021f23;
 	color: white;
 }
 
