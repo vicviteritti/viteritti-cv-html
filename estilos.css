@@ -112,7 +112,11 @@ audio::-webkit-media-controls-time-remaining-display{
 	font-weight: 700;
 	color: white;
 	padding: 1px 15px 2px 15px;
-	border: 1px solid white;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border:1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
 	border-radius: 20px;
 	text-align: center;
 	margin-left: 35px;
@@ -332,7 +336,11 @@ audio::-webkit-media-controls-time-remaining-display{
 	font-weight: 700;
 	color: white;
 	padding: 1px 15px 2px 15px;
-	border: 1px solid white;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border:1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
 	border-radius: 20px;
 	text-align: center;
 }
@@ -531,7 +539,7 @@ nav ul li {
 aside {
 	display: flex;
 	flex-direction: column;
-	height: 630px;
+	height: 480px;
 	width: 300px;
 	margin-left: 40px;
 	padding-left: 20px;
@@ -655,6 +663,27 @@ aside h4 {
 
 /*FORMULARIO*/
 
+.aside-form-img{
+	margin-top: 85px;
+	margin-left: -20px;
+	display: flex;
+	flex-direction: column;
+	height: 560px;
+	width: 300px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 20px;
+	border:1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+		
+}
+
 .main-form {
 	display: flex;
 	flex-direction: row;
@@ -774,7 +803,9 @@ aside h4 {
 	flex-direction: column;
 	width: 35%;
 	margin-bottom: 20px;
-	line-height: 36px
+	line-height: 36px;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 form label, form p{
@@ -790,7 +821,7 @@ form label, form p{
 	font-family: 'Lora', serif;
 	font-weight: 900;
 	font-size: 14px;
-	color: #021f23;
+	color: #EF878B;
 	margin: 0px;
 }
 
@@ -1064,12 +1095,7 @@ input[type=reset]:active, input[type=submit]:active {
 }
 
 
-.dibujo-cora{
-	position: absolute;
-	scale: 0.3;
-	top: 5px;
-	right: 650px
-}
+
 
 
 
