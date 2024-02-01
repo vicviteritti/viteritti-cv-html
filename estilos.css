@@ -230,7 +230,8 @@ audio::-webkit-media-controls-time-remaining-display{
 	height: 15%;
 	background-color: transparent;	
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	margin-left: 45px;
 	margin-right: 45px;
 	box-sizing: content-box;
 }
@@ -329,6 +330,11 @@ audio::-webkit-media-controls-time-remaining-display{
 	line-height: 20px;
 }
 
+header button {
+	border-color: transparent;
+	background-color: transparent;
+	align-self: flex-start;
+}
 
 .botonera a {
 	width: 100px;
