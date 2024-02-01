@@ -294,6 +294,9 @@ audio::-webkit-media-controls-time-remaining-display{
 	flex-direction: row;
 }
 
+.aside-about-me {
+	height: 660px;
+}
 
 
 
