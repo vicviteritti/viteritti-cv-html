@@ -10,7 +10,8 @@ body {
 /*	animation: transitionIn 1s;*/
 	background: linear-gradient(-45deg,#f29699,#f3e795,#f29699,#10393e);
 	animation: background 12s ease infinite;
-	background-size: 400% 400%
+	background-size: 400% 400%;
+	zoom: 75%;
 }
 
 @keyframes background {
