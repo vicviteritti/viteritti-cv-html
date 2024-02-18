@@ -2,6 +2,7 @@
 /* CSS Document */
 
 
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -140,85 +141,7 @@ audio::-webkit-media-controls-time-remaining-display{
 
 
 /*MOBILE*/
-@media (max-width:700px){
-	#cabecera {
-		width: 100%;
-		height: 150px;
-		background-color: #3A5126;	
-		display: flex;
-		justify-content: flex-start;
-		padding-top: 0px
-	}
-	
-	#cabecera img{
-		width: 20%;
-		height: 30%;
-		align-self: center;
-		padding-top: 0px;
-	}
-	
-	.titulos {
-		align-self: flex-start;
-		margin: 0px;
-		height: 0px;
-		text-align: start;
-		margin-top:50px;
-		justify-content: flex-start;
-	}
-
-	.titulos h1 {
-		font-size: 28px;
-		padding-left: 35px;
-		padding-top:0px
-	}
-	
-	.titulos h2 {
-		font-size: 10px;
-	}
-	
-	nav ul {
-		display: flex;
-		flex-direction: row;
-		gap: 20px;
-		position: absolute;
-		left: 40px;
-		top: 50px
-	}
-	
-	.botonera a {
-		width: 100px;
-		height: 20px;
-		font-size: 14px;
-		padding: 1px 15px 2px 15px;
-		text-align: center;
-	}
-	
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content:flex-end;
-		flex-wrap: wrap;
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	
-	.info-personal{
-		width: 100%;
-		padding-left: 80px;
-		padding-right: 80px;
-		box-sizing: border-box;
-	}
-	
-	aside {
-		height: 630px;
-		width: 75%;
-	}
-	
-	.proyectos-container {
-		width: 100%;
-	}
-	
+@media (max-width:600px){
 	
 }
 
