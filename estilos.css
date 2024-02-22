@@ -89,11 +89,40 @@ audio::-webkit-media-controls-time-remaining-display{
 }
 
 .main-index aside{
+	height: 515px;
+	width: 345px;
 	margin-top:0px;
-	background: transparent;
+	background-color: transparent;
+	background-image: url("img/estrellita_form.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 0px transparent;
 	box-shadow: 0px 0px 0px 0px transparent;
 }
+
+.eyes{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 221px;
+	margin-left: 113px;
+	gap: 6px;
+}
+
+.eye{
+	width: 15px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.ball{
+	width: 10px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: antiquewhite;
+}
+
 
 .section-index{
 	display: flex;

@@ -39,7 +39,16 @@
 			<a class="boton-index" href="sobre_mi.html"> descubrir</a>
 		</section>
 		<aside>
-			<img src="img/estrellita_form.png" width="400" height="600" alt=""/>
+			<div class="eyes">
+				<div class="eye">
+					<div class="ball">
+					</div>
+				</div>
+				<div class="eye">
+					<div class="ball">
+					</div>
+				</div>
+			</div>
 		</aside>
 	</main>
 	
@@ -60,5 +69,19 @@
 			</li>
 		</ul>
 	</footer>
+	
+	<script>
+	var ball=document.getElementsByClassName("ball");
+	document.onmousemove=function(){
+		var x=event.clientX*100/window.innerWidth+"%";
+		var y=event.clientY*100/window.innerHeight+"%";
+		
+		for(var i=0;i<2;i++){
+			ball[i].style.left=x/2;
+			ball[i].style.top=y/2;
+			ball[i].style.transform="translate("+x+","+y+")";
+		}
+	}
+	</script>
 </body>
 </html>
