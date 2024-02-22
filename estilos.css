@@ -88,6 +88,13 @@ audio::-webkit-media-controls-time-remaining-display{
 
 }
 
+.main-index aside{
+	margin-top:0px;
+	background: transparent;
+	border: 0px transparent;
+	box-shadow: 0px 0px 0px 0px transparent;
+}
+
 .section-index{
 	display: flex;
 	flex-direction: column;
