@@ -157,7 +157,7 @@ audio::-webkit-media-controls-time-remaining-display{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	margin-top: 45px;
 }
 
 
@@ -325,6 +325,7 @@ audio::-webkit-media-controls-time-remaining-display{
 .aboutme-img-info {
 	display:flex;
 	flex-direction: row;
+	margin-left: 40px;
 }
 
 .aboutme-tabs{
@@ -338,17 +339,19 @@ audio::-webkit-media-controls-time-remaining-display{
 
 	width: 500px;
 	height: 360px;
-	padding: 30px 20px;
+	padding: 10px 20px;
 	overflow: hidden;
 	background: transparent;
 }
 
 .tabs .tab-header{
+	display: flex;
+	flex-direction: column;
 	float: left;
-	width: 180px;
-	height: 100%;
+	width: 25%;
+	height: 72%;
 	border-right: 1px solid white;
-	padding: 50px 0px;
+	padding: 22px 0px;
 	overflow: hidden;
 }
 
@@ -393,6 +396,7 @@ audio::-webkit-media-controls-time-remaining-display{
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 0.4px;
+	margin: 0px;
 }
 
 .tab-content div h2{
@@ -423,20 +427,21 @@ audio::-webkit-media-controls-time-remaining-display{
 .tab-content div{
 	position: absolute;
 	text-align: flex-start;
-	padding: 40px 20px;
+	padding: 55px 40px;
 	top: -200%;
 }
 
 .tab-content div.active{
-	top: 0
+	top: 0;
+	width: 75%;
 }
 
 .tab-indicator{
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	left: 177px;
-	top:80px;
+	left: 122px;
+	top:45px;
 	transition: all 500ms ease-in-out;
 	background-image: url('./img/estrellita-ind.png');
 	background-repeat: no-repeat;
@@ -715,12 +720,10 @@ aside {
 	width: 300px;
 	padding-left: 20px;
 	box-sizing: border-box;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	border-radius: 20px;
-	border:1px solid rgba(255, 255, 255, 0.18);
-	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 		
 }
 
