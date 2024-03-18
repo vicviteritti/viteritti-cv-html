@@ -1333,13 +1333,13 @@ input[type=reset]:active, input[type=submit]:active {
 }
 
 .card[for="c1"] {
-    background-image: url('./img/portfolio_ploteo.jpg');
+    background-image: url('./img/caldeiro-gif.gif');
 }
 .card[for="c2"] {
     background-image: url('./img/riña-gif.gif');
 }
 .card[for="c3"] {
-    background-image: url('./img/work-slider-1.jpg');
+    background-image: url('./img/medusas-gif.gif');
 }
 .card[for="c4"] {
     background-image: url('./img/portfolio_libros.jpg');
