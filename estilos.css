@@ -1333,7 +1333,7 @@ input[type=reset]:active, input[type=submit]:active {
 }
 
 .card[for="c1"] {
-    background-image: url('./img/caldeiro-gif.gif');
+    background-image: url('./img/caldeiro-gif-.gif');
 }
 .card[for="c2"] {
     background-image: url('./img/riña-gif.gif');
@@ -1342,7 +1342,7 @@ input[type=reset]:active, input[type=submit]:active {
     background-image: url('./img/medusas-gif.gif');
 }
 .card[for="c4"] {
-    background-image: url('./img/portfolio_libros.jpg');
+    background-image: url('./img/libro-gif-.gif');
 }
 
 
