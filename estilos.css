@@ -1111,6 +1111,10 @@ input[type=reset]:active, input[type=submit]:active {
 
 
 /*WORKS*/
+.main-works{
+	margin-top:60px;
+}
+
 .article-works {
 	display: flex;
 	flex-direction: row;
