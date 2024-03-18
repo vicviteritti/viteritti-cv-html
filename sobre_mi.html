@@ -7,10 +7,11 @@
 <link href="estilos.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 	
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,7 @@
 <body>
 	<header id="cabecera">
 		<button class="icono-header">
-			<a href="index.html"><img src="img/portfolio-favicon.svg" width="50px" height="50px" alt=""/></a>
+			<a href="index.html"><img src="img/estrellita-ind.png" width="50px" height="50px" alt=""/></a>
 		</button>
 		<nav class="botonera">
 			<ul>
@@ -38,18 +39,51 @@
 				<h1>about me</h1>
 				<div class="aboutme-img-info">
 					<img src="img/retrato_portfolio_2.jpg" width="283" height="283" alt=""/>
-					<div class="aboutme-info">
-						<h2>Victoria Viteritti</h2>
-						<h2>Undergraduate student of Visual Communication and Desing</h2>
-						<h3>National University of Lan&uacute;s</h3>
+					<section class="aboutme-tabs">
+					<div class="tabs">
+						<div class="tab-header">
+							<div class="active">
+								<h4>Education</h4>
+							</div>
+							<div>
+								<h4>Experience</h4>
+							</div>
+							<div>
+								<h4>Certificate</h4>
+							</div>
+						</div>
+						<div class="tab-indicator">
+						</div>
+						<div class="tab-content">
+							<div class="text-white active">
+								<h4>2020 - 2025</h4>
+								<h2>Visual Communication and Design</h2>
+								<h3>National University of Lan&uacute;s</h3>
+								<p>Undergraduate student.</p>
+							</div>
+							<div class="text-white">
+								<h4>dic. 2020 - nov. 2021</h4>
+								<h2>Community Manager</h2>
+								<h3>Casualitê Nail Club</h3>
+								<p>Instagram (+20k followers) and Google Business. Strategy, content and design.</p>
+							</div>
+							<div class="text-white">
+								<h4>2016</h4>
+								<h2>First Certificate in English (FCE)</h2>
+								<h3>University of Cambridge</h3>
+								<p>B2 CEFR Level</p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</section>
 			</article>
 			
 			<aside class="aside-about-me">
-				<section class="objetivos">
-					<h4> objetivos </h4>
-					<p> Profundizar mis conocimientos y habilidades en un &aacute;mbito de nuevos desaf&iacute;os </p>
+				<section class="objetivos-about-me">
+					<h4>personal info</h4>
+					<h3>Victoria Viteritti</h3>
+					<p>Birth date - Nov. 2001</p>
+					<p>Argentina - Italy</p>
 				</section>
 				<section>
 					<h4> programas</h4>
@@ -129,8 +163,8 @@
 				</section>
 
 				<section class="hobbies">
-					<h4> hobbies </h4>
-					<p> Amante del dibujo, la fotograf&iacute;a y la m&uacute;sica. Practico guitarra. Inter&eacute;s en conocer nuevas culturas y recorrer lugares.</p>
+					<h4> objetivos </h4>
+					<p> Profundizar mis conocimientos y habilidades en un &aacute;mbito de nuevos desaf&iacute;os </p>
 				</section>
 			</aside>
 			
@@ -306,5 +340,34 @@
 			</li>
 		</ul>
 	</footer>
+	
+<script type="text/javascript">
+	function _class(name){
+		return document.getElementsByClassName(name);
+		
+	}
+	
+	let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
+	
+	for(let i=0;i<tabPanes.length;i++){
+		
+	tabPanes[i].addEventListener("click",function(){
+		_class("tab-header")[0].getElementsByClassName("active")[0].classList.remove("active");
+		
+		tabPanes[i].classList.add("active");
+		
+		_class("tab-indicator")[0].style.top = `calc(80px + ${i*50}px)`;
+		
+		_class("tab-content")[0].getElementsByClassName("active")[0].classList.remove("active");
+		
+		_class("tab-content")[0].getElementsByTagName("div")[i].classList.add("active");
+	});
+		
+		
+	}
+	
+</script>
+	
+	
 </body>
 </html>
